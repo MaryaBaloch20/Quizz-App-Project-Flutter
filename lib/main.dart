@@ -30,7 +30,6 @@ class MyApp extends StatelessWidget {
       navigatorKey: navigatorKey,
       title: 'Quizzle',
       theme: Get.find<ThemeController>().getLightheme(),
-      darkTheme: Get.find<ThemeController>().getDarkTheme(),
       getPages: AppRoutes.pages(),
       debugShowCheckedModeBanner: false,
     );
